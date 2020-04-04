@@ -31,7 +31,7 @@ public class NewsController {
 		return sources;
 	} 
 	
-	@PostMapping(value = "/posts")
+	/*@PostMapping(value = "/posts")
     public List<Source> get(@ModelAttribute("input") form input) throws ParseException, IOException {
 
 		form f=new form();
@@ -44,7 +44,7 @@ public class NewsController {
 
 		List<Source> sources=NewsService.CountryandCategory(country,category,k);
 		return sources;
-    }
+    }*/
 
 	@GetMapping(value = "/country_code={country}/{k}")
 	public List<Source> country(@PathVariable String country,@PathVariable Integer k) throws ParseException, IOException {
