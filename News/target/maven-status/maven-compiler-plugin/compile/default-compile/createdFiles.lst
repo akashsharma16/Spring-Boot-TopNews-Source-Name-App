@@ -1,0 +1,4 @@
+com/news/app/model/Source.class
+com/news/app/controller/NewsController.class
+com/news/app/NewsApplication.class
+com/news/app/service/NewsService.class
